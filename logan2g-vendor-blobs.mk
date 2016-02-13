@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,6 +31,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logan2g/proprietary/bin/calibration_init:system/bin/calibration_init \
     vendor/samsung/logan2g/proprietary/bin/sprd_monitor:system/bin/sprd_monitor \
     vendor/samsung/logan2g/proprietary/bin/cpu:system/bin/cpu \
+    vendor/samsung/logan2g/proprietary/bin/phoneserver:system/bin/phoneserver \
+    vendor/samsung/logan2g/proprietary/bin/phoneserver_2sim:system/bin/phoneserver_2sim \
     vendor/samsung/logan2g/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
     vendor/samsung/logan2g/proprietary/lib/libmorpho_facesolid.so:system/lib/libmorpho_facesolid.so \
     vendor/samsung/logan2g/proprietary/lib/libvolumemanager.so:system/lib/libvolumemanager.so \
@@ -87,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logan2g/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/logan2g/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/logan2g/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/logan2g/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/samsung/logan2g/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/logan2g/proprietary/etc/Volume.db:system/etc/Volume.db \
     vendor/samsung/logan2g/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
@@ -176,6 +179,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logan2g/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
     vendor/samsung/logan2g/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/logan2g/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/logan2g/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/logan2g/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/logan2g/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/logan2g/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/samsung/logan2g/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
