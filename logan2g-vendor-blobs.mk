@@ -47,8 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logan2g/proprietary/bin/modemd:system/bin/modemd \
     vendor/samsung/logan2g/proprietary/bin/ss_daemon:system/bin/ss_daemon \
     vendor/samsung/logan2g/proprietary/bin/akmd8975:system/bin/akmd8975 \
-    vendor/samsung/logan2g/proprietary/bin/slog:system/bin/slog \
-    vendor/samsung/logan2g/proprietary/bin/slogctl:system/bin/slogctl \
     vendor/samsung/logan2g/proprietary/bin/ext_chown.sh:system/bin/ext_chown.sh \
     vendor/samsung/logan2g/proprietary/bin/dbus-daemon:system/bin/dbus-daemon \
     vendor/samsung/logan2g/proprietary/bin/phoneserver:system/bin/phoneserver \
