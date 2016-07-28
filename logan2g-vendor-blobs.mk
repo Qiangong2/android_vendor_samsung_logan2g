@@ -33,8 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logan2g/proprietary/bin/cpu:system/bin/cpu \
     vendor/samsung/logan2g/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
     vendor/samsung/logan2g/proprietary/lib/libmorpho_facesolid.so:system/lib/libmorpho_facesolid.so \
-    vendor/samsung/logan2g/proprietary/lib/libvolumemanager.so:system/lib/libvolumemanager.so \
-    vendor/samsung/logan2g/proprietary/lib/libxlist.so:system/lib/libxlist.so \
     vendor/samsung/logan2g/proprietary/lib/libengclient.so:system/lib/libengclient.so \
     vendor/samsung/logan2g/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/logan2g/proprietary/lib/liblvvewrapper.so:system/lib/liblvvewrapper.so \
